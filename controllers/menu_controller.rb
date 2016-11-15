@@ -69,6 +69,7 @@ class MenuController
       puts address_book.entries[chosen_entry].to_s
     else
       puts "No entry with that number."
+      view_entry
     end
   end
 

@@ -48,4 +48,9 @@ class AddressBook
     return nil
   end
 
+  def detonate
+    @entries = []
+  end
+
+
 end
